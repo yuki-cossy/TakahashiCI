@@ -16,7 +16,7 @@ rm(list = ls())
 # 以下のどちらでデータを読み込んでも良いが
 # わざわざfile.choose()を使う必要はない気もする
 # data03 <- read_csv(file.choose())
-data03 <- read_csv("./causality-main/data03.csv")
+data03 <- read_csv("../causality-main/data03.csv")
 data03
 
 # pandasでいうdf.value_counts()的なコード

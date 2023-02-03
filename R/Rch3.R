@@ -25,6 +25,7 @@ dplyr::count(data03, t1, sort=TRUE)
 summary(data03)
 # pandasでいうdf.info()的なコード
 str(data03)
+glimpse(data03)
 # pandasでいうdf.isnull().sum()的なコード
 colSums(is.na(data03))
 
